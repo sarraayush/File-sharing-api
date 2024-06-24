@@ -12,7 +12,7 @@ from email_utils import send_verification_email
 app = FastAPI()
 
 # Database
-client = AsyncIOMotorClient('mongodb+srv://user1:Aayush%40*1@cluster0.ks2jebo.mongodb.net/fileshare?retryWrites=true&w=majority&appName=Cluster0')
+client = AsyncIOMotorClient('Mongourl')
 db = client.fileshare
 
 # Security
